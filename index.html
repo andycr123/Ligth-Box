@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shorcut icon" href="">
+    <title>Gallery ligth</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+    <div class="galeria-imagenes">
+        <img src="./img/wallhaven-3lew53.jpg" alt="Imagen 1" data-lightbox="imagen1">
+        <img src="./img/wallhaven-e7x3pl.jpg" alt="Imagen 2" data-lightbox="imagen2">
+        <!-- Agrega más imágenes según sea necesario -->
+    </div>
     
+    <!-- Contenedor del Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
 </body>
+<script src="./app.js"></script>
 </html>
